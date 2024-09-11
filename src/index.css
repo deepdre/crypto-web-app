@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --white: #fff; 
+  --black: #111;
+  --blue: #3a80e9;
+  --grey: #888;
+  --darkgrey: #1b1b1b;
+  --green: #61c96f;
+  --red: #f94141; 
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--black);
+  color: var(--white);
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+::selection{
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 1.2rem;
+  height: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+  border-radius: 3rem;
+  border: 2px solid darkorange;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/120px-Bitcoin.svg.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat:space;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+  background-color: darkorange;
+  border-radius: 3rem;
+  
+}
+a{
+  color: var(--white) !important;
+  text-decoration: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+  
