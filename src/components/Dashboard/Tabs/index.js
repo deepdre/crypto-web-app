@@ -10,7 +10,7 @@ import Grid from "../Grid";
 import List from "../List";
 
 export default function TabsComponent({ coins }) {
-  const [value, setValue] = useState("1");
+  const [value, setValue] = useState("Grid");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
